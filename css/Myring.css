@@ -1,0 +1,223 @@
+/* 样式重置 css reset */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,td,input,textarea,option{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 26.67vw;
+}
+body{
+	font-family: "microsoft yahei";
+	font-size: .16rem;
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border: none;
+}
+/* header */
+header{
+	width: 100%;
+	height: .50rem;
+	background-color: #3a3c3f;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+header .icon-xiaoyuhao{
+	font-size: 0.24rem;
+}
+header .header-left-word{
+	font-size: .18rem;
+}
+header .header-conter{
+	font-size: 0.22rem;
+}
+header .icon-zhaoxiangji{
+	font-size: 0.25rem;
+	margin-right: 0.15rem;
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.1rem;
+	position: relative;
+	background-size: contain;
+	background-image: url(https://sevencent.coding.net/p/moments/d/moments/git/raw/master/friendcircle-banner.png);
+}
+.banner-style{
+	width: 1.2rem;
+	height: 0.64rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: flex;
+}
+.banner-style-name{
+	color: #ffffff;
+	font-size: 0.16rem;
+	text-shadow: 1px 1px 3px #000 ;
+	margin-right: 0.12rem;
+	line-height: 0.5rem;
+	opacity: 0.7;
+	letter-spacing: 0.03rem;
+}
+.banner-style-img img{
+	width: 0.5rem;
+	height: 0.5rem;
+	border: 0.02rem solid #fff;
+	border-radius: 0.1rem;
+	margin-right: 0.12rem;
+}
+/* section */
+section {
+  width: 100%;
+  justify-content: space-between;
+  flex: 1;
+  overflow: auto;
+}
+.box {
+  display: flex;
+  width: 100%;
+  min-height: 3rem;
+}
+.touxiang {
+  width: 25%;
+  min-height: 1.5rem;
+  text-align: right;
+  margin-left: 0.16rem;
+  margin-top: 0.16rem;
+  margin-bottom: 0.16rem;
+}
+
+.touxiang img {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.08rem;
+}
+
+.text {
+  flex: 1;
+  min-height: 1.5rem;
+  margin-right: 0.16rem;
+  margin-top: 0.16rem;
+  margin-bottom: 0.16rem;
+}
+.biaoti {
+  width: 100%;
+  min-height: 0.4rem;
+}
+
+.nr {
+  width: 100%;
+  min-height: 0.52rem;
+  margin-top: 0.02rem;
+  margin-bottom: 0.08rem;
+}
+.pic {
+  width: 100%;
+  min-height: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pic-1 {
+  width: 100%;
+  min-height: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pic-1 .pic1 {
+  width: 1.21rem;
+  height: 1.21rem;
+}
+.pic-2 .pic1 {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.pic1 {
+  width: 1.72rem;
+  height: 1.72rem;
+  margin-bottom: 0.06rem;
+}
+.pic-img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-img {
+  width: 100%;
+  height: 100%;
+}
+.dianzan {
+  height: 0.35rem;
+  line-height: 0.35rem;
+  color: #80858c;
+  font-size: 0.24rem;
+  margin-left: 0.7rem;
+  display: inline-block;
+}
+.number{
+	font-size: 0.20rem;
+	color: #80858C;
+}
+.pinglun {
+  font-size: 0.2rem;
+  color: #80858c;
+  margin-left: 0.2rem;
+}
+.icon-pinglun{
+	font-size: 1rem;
+}
+.liuyan {
+  width: 2.5rem;
+  height: 0.9rem;
+  margin-left: 1.1rem;
+  margin-right: 0.12rem;
+  overflow: hidden;
+}
+.liuyan-text {
+  line-height: 0.24rem;
+}
+.p {
+  color: #80858c;
+}
+.liuyan-text p {
+  display: inline-block;
+}
+.shouqi {
+  margin-top: 0.1rem;
+  margin-left: 0.05rem;
+  color: #80858c;
+  margin-left: 1.10rem;
+}
+.dianzan span {
+  margin-left: 0.1rem;
+  font-size: 0.2rem;
+}
+/* footer */
+footer{
+	height: 0.4rem;
+	width: 100%;
+	border-top: 0.01rem solid #ACB1B7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-text{
+	font-size: 0.12rem;
+	color: #ACB1B7;
+	
+}
