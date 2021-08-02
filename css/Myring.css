@@ -12,7 +12,7 @@ html{
 body{
 	font-family: "microsoft yahei";
 	font-size: .16rem;
-	background: #f2f2f2;
+	background: #ffffff;
 	display: flex;
 	flex-direction: column;
 }
@@ -28,7 +28,7 @@ img{
 /* header */
 header{
 	width: 100%;
-	height: .50rem;
+	height: .40rem;
 	background-color: #3a3c3f;
 	display: flex;
 	justify-content: space-between;
@@ -36,13 +36,13 @@ header{
 	color: white;
 }
 header .icon-xiaoyuhao{
-	font-size: 0.24rem;
+	font-size: 0.19rem;
 }
 header .header-left-word{
-	font-size: .18rem;
+	font-size: .15rem;
 }
 header .header-conter{
-	font-size: 0.22rem;
+	font-size: 0.16rem;
 }
 header .icon-zhaoxiangji{
 	font-size: 0.25rem;
@@ -57,8 +57,8 @@ header .icon-zhaoxiangji{
 	background-image: url(https://sevencent.coding.net/p/moments/d/moments/git/raw/master/friendcircle-banner.png);
 }
 .banner-style{
-	width: 1.2rem;
-	height: 0.64rem;
+	width: 1.5rem;
+	height: 0.7rem;
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -68,17 +68,25 @@ header .icon-zhaoxiangji{
 	color: #ffffff;
 	font-size: 0.16rem;
 	text-shadow: 1px 1px 3px #000 ;
-	margin-right: 0.12rem;
 	line-height: 0.5rem;
 	opacity: 0.7;
-	letter-spacing: 0.03rem;
+	letter-spacing: 0.01rem;
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0.8rem;
+}
+.banner-style-img{
+	width: 0.48rem;
+	height: 0.48rem;
+	position: absolute;
+	bottom: 0.2rem;
+	right: 0.2rem;
 }
 .banner-style-img img{
 	width: 0.5rem;
 	height: 0.5rem;
-	border: 0.02rem solid #fff;
-	border-radius: 0.1rem;
-	margin-right: 0.12rem;
+	border: 0.02rem solid #ffffff;
+	border-radius: 0.05rem;
 }
 /* section */
 section {
@@ -90,43 +98,71 @@ section {
 .box {
   display: flex;
   width: 100%;
-  min-height: 3rem;
 }
 .touxiang {
-  width: 20%;
-  min-height: 1.5rem;
+  width: 0.4rem;
+  height: 0.4rem;
   text-align: right;
   margin-top: 0.16rem;
-  margin-bottom: 0.16rem;
+  margin-left: 0.16rem;
+  margin-right: 0.08rem;
+  border-radius: 0.04rem;
 }
-
 .touxiang img {
   width: 0.4rem;
   height: 0.4rem;
-  margin-right: 0.08rem;
+  border-radius: 0.04rem;
 }
-
 .text {
   flex: 1;
-  min-height: 1.5rem;
   margin-right: 0.16rem;
   margin-top: 0.16rem;
-  margin-bottom: 0.16rem;
 }
 .biaoti {
   width: 100%;
-  min-height: 0.4rem;
+  font-size: 0.15rem;
+  color: #41454D;
+  margin-bottom: 0.02rem;
+}
+.ddcx{
+	height: 0.52rem;
+	width: 100%;
+	background-color: #F7F7F7;
+	margin-top: 0.08rem;
+	margin-bottom: 0.08rem;
+	display: flex;
+	align-items: center;
+}
+.ddcx img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-left: 0.06rem;
+}
+.ddcx p{
+	font-size: 0.13rem;
+	color: #41454D;
+	margin-left: 0.06rem;
+}
+.hf{
+	font-size: 0.14rem;
+	color: #41454D;
+}
+.liuyan2{
+	margin-bottom: 0.2rem;
 }
 
+
+
+
 .nr {
+	font-size: 0.13rem;
+	color: #41454D;
   width: 100%;
-  min-height: 0.52rem;
   margin-top: 0.02rem;
   margin-bottom: 0.08rem;
 }
 .pic {
-  width: 100%;
-  min-height: 1.5rem;
+  width: 92.4%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -142,69 +178,93 @@ section {
   width: 1.21rem;
   height: 1.21rem;
 }
-.pic-2 .pic1 {
-  width: 0.8rem;
-  height: 0.8rem;
-}
-.pic1 {
-  width: 1.72rem;
-  height: 1.72rem;
-  margin-bottom: 0.06rem;
-}
 .pic-img {
   width: 100%;
   height: 100%;
 }
-
-.pic-img {
-  width: 100%;
-  height: 100%;
+.img-1{
+	width: 1.72rem;
+	height: 1.72rem;
 }
 .dianzan {
-  height: 0.35rem;
-  line-height: 0.35rem;
   color: #80858c;
-  font-size: 0.24rem;
   margin-left: 0.7rem;
   display: inline-block;
 }
+.dianzan span{
+	display: inline-block;
+	width: 0.17rem;
+	height: 0.17rem;
+}
 .number{
-	font-size: 0.20rem;
+	font-size: 0.13rem;
 	color: #80858C;
 }
 .pinglun {
-  font-size: 0.2rem;
+  font-size: 0.12rem;
   color: #80858c;
-  margin-left: 0.2rem;
+  margin-left: 0.3rem;
 }
 .icon-pinglun{
-	font-size: 1rem;
+	font-size: 0.17rem;
 }
 .liuyan {
   width: 2.5rem;
-  height: 0.9rem;
-  margin-left: 1.1rem;
-  margin-right: 0.12rem;
+  height: 1rem;
+  margin-left: 0.7rem;
   overflow: hidden;
 }
 .liuyan-text {
   line-height: 0.24rem;
 }
 .p {
-  color: #80858c;
+	font-size: 0.12rem;
+	color: #ABC1B7;
+	margin-top: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+.liuyan-text a{
+	font-size: 0.14rem;
+	color: #5BAFFF;
 }
 .liuyan-text p {
   display: inline-block;
+  font-size: 0.14rem;
+  color: #41454D;
+  word-wrap: break-word
 }
 .shouqi {
-  margin-top: 0.1rem;
-  margin-left: 0.05rem;
-  color: #80858c;
-  margin-left: 1.10rem;
+  margin-top: 0.08remrem;
+  color: #ACB1B7;
+  font-size: 0.12rem;
+  margin-left: 0.7rem;
+  margin-bottom: 0.1rem;
 }
-.dianzan span {
-  margin-left: 0.1rem;
-  font-size: 0.2rem;
+.img-4{
+	width: 1.34rem;
+	height: 1.34rem;
+}
+.pic-2{
+	width: 2.72rem;
+	height: 2.72rem;
+}
+.pic-img2{
+	width: 0.88rem;
+	height: 0.88rem;
+}
+.box-buttom{
+	margin-top: 0.1rem;
+}
+.time{
+	margin-left: 0.7rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	font-size: 0.12rem;
+	color: #80858c;
+}
+.img-3{
+	width: 0.88rem;
+	height: 0.88rem;
 }
 /* footer */
 footer{

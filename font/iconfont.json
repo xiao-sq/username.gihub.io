@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "10379391",
+      "name": "箭头",
+      "font_class": "jiantoudown",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10707179",
+      "name": "箭头 上 up",
+      "font_class": "jiantoushang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
       "icon_id": "1163059",
       "name": "iconfont-6",
       "font_class": "xiaoyuhao",
